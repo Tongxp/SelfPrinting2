@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">自助打印</string>
+    <string name="url_upload">http://192.168.43.224:8080/SelfPrinting/GetFileServlet</string>
+    <string name="url_fileName">http://192.168.43.224:8080/SelfPrinting/GetFileNameServlet</string>
+    <string name="url_upload_money">http://192.168.43.224:8080/SelfPrinting/ConfirmPayServlet</string>
+</resources>

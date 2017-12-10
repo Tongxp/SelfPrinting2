@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainmain">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="240dp">
+        <EditText
+            android:id="@+id/text_choose"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:lines="1"
+            android:hint="上传文件" />
+
+        <ImageView
+            android:id="@+id/btn_upload"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/mainupload" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_upload"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="正在上传。。。"/>
+
+    <ProgressBar
+        android:id="@+id/pb_progressBar"
+        android:layout_marginTop="0dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:max="10"
+        android:progress="0"
+        android:progressDrawable="@drawable/pbprogressbar" />
+
+</LinearLayout>
